@@ -1,0 +1,8 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <text x="10" y="70" fill="none" stroke="black" stroke-width="2" font-size="70" font-family="Times New Roman, serif">
+        N
+    </text>
+    <text x="90" y="70" fill="black" stroke="none" font-size="70" font-family="Times New Roman, serif">
+        S
+    </text>
+</svg>
