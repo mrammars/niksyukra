@@ -29,7 +29,7 @@ const init = () =>{
             x: 0
         }, {
             x: distanceToTranslate,
-            duration: 100,
+            duration: 60,
             ease: "none",
             repeat: -1
         });

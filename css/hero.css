@@ -115,12 +115,6 @@
   /* background-color: var(--color--font); */
 }
 
-/* .hero-card:tiny {
-  position: absolute;
-  width: 45vh;
-  height: 60vh;
-} */
-
 .hero-card.first {
   z-index: 3;
   transform: rotate(-4.89deg);
@@ -201,11 +195,13 @@
   display: flex;
   overflow: hidden;
   width: 100%;
+  max-width: 100vw;
   align-items: center;
   justify-content: start; /* Aligns content to the start */
   grid-column-gap: 4rem;
   grid-row-gap: 4rem;
   white-space: nowrap;
+  /* margin: 0; */
 }
 
 .hero-marquee {
@@ -214,16 +210,11 @@
   grid-column-gap: 4rem;
   grid-row-gap: 4rem;
   white-space: nowrap;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
 }
-/* 
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
 
 .text-size-display {
   font-size: var(--text-size--display);
