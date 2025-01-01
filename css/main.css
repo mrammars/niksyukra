@@ -273,7 +273,7 @@ p {
 /* small */
 @media screen and (max-width: 576px) {
   .navbar-component {
-    padding-top: 0.2rem;
+    padding-top: 1rem;
     padding-bottom: 0.2rem;
   }
 

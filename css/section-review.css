@@ -1,0 +1,48 @@
+.section-review {
+  margin-top: 12rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.wrap {
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.js-slider {
+  /* Hide until displayed with JavaScript */
+  visibility: hidden;
+  height: 15rem;
+  position: relative;
+}
+
+.js-slider__slide {
+  display: grid;
+  align-content: center;
+  place-content: center;
+  position: absolute;
+  inset: 0;
+}
+
+.js-slider__nav {
+  position: absolute;
+  bottom: -0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.js-slider__nav button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.js-slider__nav button:hover {
+  background: #555;
+}
